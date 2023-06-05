@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="password" value="Qwertyui@123" ></parameter>
+  <test thread-count="5" name="Test1">
+  <parameter name="userName" value="lakshmi45" ></parameter>
+    <classes>
+      <class name="org.testngdata.TestngDataDriven"/>
+       </classes>
+  </test> <!-- Test -->
+  
+   <test thread-count="5" name="Test2">
+   <parameter name="userName" value="ivana65" ></parameter>
+    <classes>
+        <class name="org.testngdata.TestngData2"/>
+      </classes>
+  </test> <!-- Test -->
+  
+   <test thread-count="5" name="Test3">
+   <parameter name="userName" value="Deivalakshmi45" ></parameter>
+    <classes>
+         <class name="org.testngdata.TestngData3"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</suite> <!-- Suite -->
